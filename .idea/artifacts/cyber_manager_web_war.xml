@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cyber-manager-web:war">
+    <output-path>$PROJECT_DIR$/cyber-manager/cyber-manager-web/target</output-path>
+    <root id="archive" name="cyber-manager-web.war">
+      <element id="artifact" artifact-name="cyber-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

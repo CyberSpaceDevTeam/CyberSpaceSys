@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cyber-common/cyber-common.iml" filepath="$PROJECT_DIR$/cyber-common/cyber-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyber-manager/cyber-manager.iml" filepath="$PROJECT_DIR$/cyber-manager/cyber-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyber-manager/cyber-manager-mapper/cyber-manager-mapper.iml" filepath="$PROJECT_DIR$/cyber-manager/cyber-manager-mapper/cyber-manager-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyber-manager/cyber-manager-pojo/cyber-manager-pojo.iml" filepath="$PROJECT_DIR$/cyber-manager/cyber-manager-pojo/cyber-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyber-manager/cyber-manager-service/cyber-manager-service.iml" filepath="$PROJECT_DIR$/cyber-manager/cyber-manager-service/cyber-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cyber-manager/cyber-manager-web/cyber-manager-web.iml" filepath="$PROJECT_DIR$/cyber-manager/cyber-manager-web/cyber-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/cyber-parent/cyber-parent.iml" filepath="$PROJECT_DIR$/cyber-parent/cyber-parent.iml" />
     </modules>
   </component>

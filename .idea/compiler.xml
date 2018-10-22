@@ -6,10 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cyber-parent" />
+        <module name="cyber-common" />
+        <module name="cyber-manager-mapper" />
+        <module name="cyber-manager-pojo" />
+        <module name="cyber-manager-service" />
+        <module name="cyber-manager-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cyber-common" target="1.7" />
+      <module name="cyber-manager" target="1.7" />
+      <module name="cyber-manager-mapper" target="1.7" />
+      <module name="cyber-manager-pojo" target="1.7" />
+      <module name="cyber-manager-service" target="1.7" />
+      <module name="cyber-manager-web" target="1.7" />
       <module name="cyber-parent" target="1.7" />
     </bytecodeTargetLevel>
   </component>
