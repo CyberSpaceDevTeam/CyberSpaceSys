@@ -1,0 +1,45 @@
+.fav_body {
+    margin: auto;
+}
+
+.fav_nav {
+    height: 65px;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+}
+
+.fav_nav ul li {
+    float: left;
+    list-style: none;
+    line-height: 200%;
+}
+
+.fav_nav_li1 {
+    width: 60%;
+}
+
+.fav_nav_li2 {
+    width: 15%;
+}
+
+.fav_nav_li3 {
+    width: 5%;
+}
+
+.fav_nav_li4 {
+    width: 5%;
+}
+
+.fav_foot {
+    height: 100px;
+    background-color: #9f9c9e;
+}
+
+.fav_user_info {
+    height: 400px;
+    width: 400px;
+    background-color: #d7fffb;
+}
+
+.fav_
