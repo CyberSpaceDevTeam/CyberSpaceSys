@@ -43,9 +43,16 @@
           <element id="library" level="project" name="Maven: tk.mybatis:mapper:3.2.2" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:3.4.2" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.1" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-all:1.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-guice:1.2.3" />
+          <element id="library" level="project" name="Maven: org.apache.shiro:shiro-core:1.2.3" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:r09" />
+          <element id="library" level="project" name="Maven: com.google.inject:guice:3.0" />
+          <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
+          <element id="library" level="project" name="Maven: com.google.inject.extensions:guice-multibindings:3.0" />
+          <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache:2.8.3" />
           <element id="library" level="project" name="Maven: com.jolbox:bonecp-spring:0.8.0.RELEASE" />
           <element id="library" level="project" name="Maven: com.jolbox:bonecp:0.8.0.RELEASE" />
-          <element id="library" level="project" name="Maven: com.google.guava:guava:15.0" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" />

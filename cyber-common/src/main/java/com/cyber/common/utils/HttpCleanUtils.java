@@ -7,13 +7,13 @@ import org.apache.http.conn.HttpClientConnectionManager;
  *
  * @author Justdwiwt
  */
-public class RegularCleanHttp extends Thread {
+public class HttpCleanUtils extends Thread {
 
     private final HttpClientConnectionManager connMgr;
     private Integer waitTime;
     private volatile boolean shutdown;
 
-    public RegularCleanHttp(HttpClientConnectionManager connMgr, Integer waitTime) {
+    public HttpCleanUtils(HttpClientConnectionManager connMgr, Integer waitTime) {
         this.connMgr = connMgr;
         this.waitTime = waitTime;
         this.start();
