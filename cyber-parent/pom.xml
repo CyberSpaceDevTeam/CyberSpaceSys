@@ -52,6 +52,13 @@
         <httpclient.version>4.3.5</httpclient.version>
         <jedis.version>2.6.0</jedis.version>
 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--set java version-->
+        <java.version>1.8</java.version>
+        <!--&lt;!&ndash; set thymeleaf version &ndash;&gt;-->
+        <!--<thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>-->
+        <!--<thymeleaf-layout-dialect.version>2.0.0</thymeleaf-layout-dialect.version>-->
+
     </properties>
 
     <dependencies>
@@ -285,6 +292,18 @@
         <!--<groupId>org.springframework</groupId>-->
         <!--<artifactId>spring-web</artifactId>-->
         <!--<version>4.3.4.RELEASE</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+        <!--</dependency>-->
+        <!---->
+
+        <!--<dependency>-->
+        <!--<groupId>net.sourceforge.nekohtml</groupId>-->
+        <!--<artifactId>nekohtml</artifactId>-->
+        <!--<version>1.9.22</version>-->
         <!--</dependency>-->
 
     </dependencies>

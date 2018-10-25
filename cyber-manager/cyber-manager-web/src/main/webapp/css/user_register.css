@@ -8,7 +8,6 @@
     height: 65px;
     width: 100%;
     background-color: #6ee1fa;
-    position: fixed;
     opacity: 0.8;
 }
 
@@ -23,7 +22,7 @@
 }
 
 .register_h {
-    height: 1000px;
+    height: 900px;
 }
 
 .register_foot {
@@ -179,6 +178,22 @@
     border: none;
     text-transform: capitalize;
     transition: all 0.5s ease 0s;
+}
+
+.form-horizontal .re-btn {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    background: #33bfef;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+}
+
+.form-horizontal .re-btn:hover {
+    background: #ef5f31;
 }
 
 @media only screen and (max-width: 479px) {

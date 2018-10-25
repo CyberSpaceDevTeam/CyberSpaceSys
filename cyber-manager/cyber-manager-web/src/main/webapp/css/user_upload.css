@@ -9,10 +9,15 @@
     position: fixed;
 }
 
+.title {
+    float: left;
+}
+
 .upload_nav ul li {
     float: left;
+    color: #fff;
     list-style: none;
-    line-height: 200%;
+    line-height: 50%;
 }
 
 .upload_nav_li1 {
@@ -20,15 +25,16 @@
 }
 
 .upload_nav_li2 {
-    width: 15%;
+    /*width: 15%;*/
+    margin-left: 75%;
 }
 
 .upload_nav_li3 {
-    width: 5%;
+    margin-left: 5%;
 }
 
 .upload_nav_li4 {
-    width: 5%;
+    margin-left: 5%;
 }
 
 .upload_edit_area {

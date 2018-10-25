@@ -10,7 +10,7 @@
 }
 
 .main_nav ul li {
-    float: left;
+    /*float: left;*/
     list-style: none;
     line-height: 200%;
 }
@@ -49,11 +49,11 @@
 }
 
 .main_menu_li1 {
-    width: 40%;
+    /*width: 20%;*/
 }
 
 .main_menu_li2 {
-    width: 50%;
+    /*width: 20%;*/
 }
 
 .main_hot_sec {
