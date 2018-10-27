@@ -58,7 +58,18 @@
 
 .main_hot_sec {
     height: 350px;
-    background-color: bisque;
+    /*background-color: bisque;*/
+    background-color: black;
+    transition: 2s ease;
+}
+
+.main_hot_sec img {
+    /*cursor: pointer;*/
+    /*transition: all 1.2s;*/
+}
+
+.main_hot_sec img:hover {
+    /*transform: scale(1.1);*/
 }
 
 .main_hot_sec div {
@@ -82,6 +93,12 @@
     background-color: navajowhite;
 }
 
+.main_hot_thi li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    list-style: none;
+}
+
 .main_hot_thi_area1 {
     height: 250px;
     background-color: #5fc8c5;
@@ -95,8 +112,10 @@
 }
 
 .main_hot_thi_area1_a2 {
+    width: 50%;
     height: 250px;
     background-color: #7fcced;
+    float: left;
 }
 
 .main_hot_thi_area2 {
@@ -113,7 +132,9 @@
 
 .main_hot_thi_area2_a2 {
     height: 250px;
+    width: 50%;
     background-color: #cd17aa;
+    float: left;
 }
 
 .main_foot {
