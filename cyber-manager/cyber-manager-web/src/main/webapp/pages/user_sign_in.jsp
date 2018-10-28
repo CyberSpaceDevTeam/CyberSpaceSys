@@ -5,6 +5,7 @@
     <title>sign_in</title>
     <link rel="stylesheet" href="../static/css/user_sign_in.css">
     <link rel="stylesheet" href="../static/css/footstyle.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
     <link rel="stylesheet/less" type="text/css" href="../static/less/footstyle.less">
     <link rel="stylesheet" href="../static/css/font-awesome.min.css">

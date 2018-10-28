@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../static/css/footstyle.css">
     <link rel="stylesheet" href="../static/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
     <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../static/js/jquery-1.4.2.js"></script>
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>

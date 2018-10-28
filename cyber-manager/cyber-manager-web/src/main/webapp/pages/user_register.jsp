@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../static/css/user_register.css">
     <link rel="stylesheet" href="../static/css/footstyle.css">
     <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
     <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
 </head>
 <body class="register_body">
