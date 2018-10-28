@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="../css/footstyle.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body class="article_body">
 <!--nav-->
@@ -14,11 +18,11 @@
     <div class="container-fluid title">
         <div class="navbar-header">
             <a class="navbar-brand" href="main.html">
-                <img alt="logo" src="../img">
+                <img alt="logo" src="../img/logo.png">
             </a>
         </div>
     </div>
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills navbar-right">
         <!--<li class="upload_nav_li1 active" role="presentation">主页</li>-->
         <li class="upload_nav_li2" role="presentation"><a>发布新资源</a></li>
         <li class="upload_nav_li3" role="presentation"><a>收藏</a></li>
@@ -26,18 +30,137 @@
         <li class="upload_nav_li4" role="presentation"><a>注销</a></li>
     </ul>
 </div>
-<div>
+<div style="height: 1300px;width: auto">
     <!--details-->
-    <div class="article_details"></div>
+    <div class="article_details">
+        <div class="page-header">
+            <h1>一级标题
+                <small>内容</small>
+            </h1>
+        </div>
+    </div>
     <div class="article_area2">
         <!--tag-->
-        <div class="article_tag"></div>
+        <div class="article_tag">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                               aria-expanded="true" aria-controls="collapseOne">
+                                一级
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                         aria-labelledby="headingOne">
+                        <!--<div class="list-group">-->
+                        <!--aaa-->
+                        <!--</div>-->
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">55</span>
+                                aaa
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge"></span>
+                                aaa
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge"></span>
+                                aaa
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">55</span>
+                                aaa
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                一级
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <!--<div class="list-group">-->
+                        <!--bbb-->
+                        <!--</div>-->
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">99</span>
+                                bbb
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">99</span>
+                                bbb
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">99</span>
+                                bbb
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                               href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                一级
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                         aria-labelledby="headingThree">
+                        <!--<div class="list-group">-->
+                        <!--ccc-->
+                        <!--</div>-->
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <span class="badge">8</span>
+                                ccc
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">8</span>
+                                ccc
+                            </li>
+                            <li class="list-group-item">
+                                <span class="badge">8</span>
+                                ccc
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <span class="label label-default">111</span>
+            <span class="label label-primary">222</span>
+            <span class="label label-success">333</span>
+            <span class="label label-info">444</span>
+            <span class="label label-warning">555</span>
+            <span class="label label-danger">666</span>
+        </div>
         <!--recommend-->
-        <div class="article_recommend"></div>
+        <div class="article_recommend">
+            <div class="col-xs-12 col-lg-12 col-md-6">
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="fa fa-weibo" style="margin-right: 10px"></i>111</li>
+                    <li class="list-group-item"><i class="fa fa-weibo" style="margin-right: 10px"></i>111</li>
+                    <li class="list-group-item"><i class="fa fa-weibo" style="margin-right: 10px"></i>111</li>
+                    <li class="list-group-item"><i class="fa fa-weibo" style="margin-right: 10px"></i>111</li>
+                    <li class="list-group-item"><i class="fa fa-weibo" style="margin-right: 10px"></i>111</li>
+                </ul>
+            </div>
+        </div>
     </div>
+    <!--comment-->
+    <div class="article_comment"></div>
 </div>
-<!--comment-->
-<div class="article_comment"></div>
+
 <!--foot-->
 <footer class="container-fluid foot-wrap">
     <!--采用container，使得页尾内容居中 -->

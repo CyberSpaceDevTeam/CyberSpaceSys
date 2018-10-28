@@ -3,12 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/footstyle.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $('#myCarousel').carousel({interval: 2000});
+        });
+    </script>
 </head>
 <body>
-
+<!--nav-->
+<div class="index_nav navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid title">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="main.html">
+                <img alt="logo" src="../img/logo.png">
+            </a>
+        </div>
+    </div>
+    <ul class="nav nav-pills navbar-right">
+        <li class="index_nav_li1" role="presentation"><a href="user_sign_in.html">登录</a></li>
+        <li class="index_nav_li2" role="presentation"><a href="user_register.html">注册</a></li>
+    </ul>
+</div>
+<!--carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="../img/register1.JPG" alt="First slide"/>
+        </div>
+        <div class="item">
+            <img src="../img/bg1.jpg" alt="Second slide"/>
+        </div>
+        <div class="item">
+            <img src="../img/bg3.jpg" alt="Third slide"/>
+        </div>
+    </div>
+</div>
+<div style="margin-bottom: 300px">
+    <!--class="infinite"-->
+    <div class="sec-area animated slideInRight">
+        <span>test</span>
+    </div>
+    <div>
+        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
+            <span class="icon fa fa-user fa-4x"></span>
+            <div>
+                <h3>qqqqqqqqqq</h3>
+                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                    goods is &nbsp;licensed.</p>
+            </div>
+        </div>
+        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
+            <span class="icon fa fa-user fa-4x"></span>
+            <h3>aaaaaaaaaaa</h3>
+            <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                goods is &nbsp;licensed.</p>
+        </div>
+        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
+            <span class="icon fa fa-user fa-4x"></span>
+            <h3>ddddddddddddd</h3>
+            <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                goods is &nbsp;licensed.</p>
+        </div>
+    </div>
+    <div class="sec-area animated slideInRight">
+        <span>test</span>
+    </div>
+    <div>
+        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
+            <span class="fa fa-battery-three-quarters fa-4x"></span>
+            <div>
+                <h3>qqqqqqqqqq</h3>
+                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                    goods is &nbsp;licensed.</p>
+            </div>
+        </div>
+        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
+            <span class="fa fa-edge fa-4x"></span>
+            <div>
+                <h3>qqqqqqqqqq</h3>
+                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                    goods is &nbsp;licensed.</p>
+            </div>
+        </div>
+        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
+            <span class="fa fa-xing fa-4x"></span>
+            <div>
+                <h3>qqqqqqqqqq</h3>
+                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
+                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
+                    goods is &nbsp;licensed.</p>
+            </div>
+        </div>
+    </div>
+</div>
 <!--foot-->
 <footer class="container-fluid foot-wrap">
     <!--采用container，使得页尾内容居中 -->
