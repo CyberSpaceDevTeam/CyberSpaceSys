@@ -60,6 +60,22 @@
     background-color: #fff;
 }
 
+a > twitter:hover {
+    color: #00b4ef;
+}
+
+a linkedIn:hover {
+    color: #1474ef;
+}
+
+a > google:hover {
+    color: #1ef513;
+}
+
+a > github:hover {
+    color: #000000;
+}
+
 .title {
     float: left;
 }
@@ -98,4 +114,60 @@
 
 .to_rotate:hover {
     transform: rotateY(360deg);
+}
+
+.shadow_effect {
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.stackone, .stacktwo, .stackthree, .stackfour, .stackfive, .stacksix, .stackseven, .stackeight {
+    border: 6px solid #fff;
+    float: left;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 50px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div[class*='stack'] {
+    border: 6px solid #fff;
+    float: left;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 50px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div[class*='stack'] {
+    float: left;
+    position: relative;
+    margin: 50px;
+}
+
+div[class*='stack'], div[class*='stack']:before, div[class*='stack']:after {
+    border: 6px solid #fff;
+    height: 200px;
+    width: 200px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+div[class*='stack']:before, div[class*='stack']:after {
+    background: #768590;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+div[class*='stack']:before {
+    background: #eff4de;
 }

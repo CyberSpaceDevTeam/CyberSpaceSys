@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,38 +34,38 @@
 <!--main-->
 <div>
     <div class="more_art_main">
-        <div class="page-header">
+        <div class="page-header shadow_effect">
             <h1>Example page header
                 <small>Subtext for header</small>
             </h1>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">title</div>
-            <div class="panel-body">
+            <div class="panel-body shadow_effect">
                 content
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">title</div>
-            <div class="panel-body">
+            <div class="panel-body shadow_effect">
                 content
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">title</div>
-            <div class="panel-body">
+            <div class="panel-body shadow_effect">
                 content
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">title</div>
-            <div class="panel-body">
+            <div class="panel-body shadow_effect">
                 content
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">title</div>
-            <div class="panel-body">
+            <div class="panel-body shadow_effect">
                 content
             </div>
         </div>
@@ -77,11 +77,11 @@
                         <span aria-hidden="true">&laquo;</span>
                     </a>
                 </li>
-                <li><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
+                <li><a href="#" class="to_small">1</a></li>
+                <li><a href="#" class="to_small">2</a></li>
+                <li><a href="#" class="to_small">3</a></li>
+                <li><a href="#" class="to_small">4</a></li>
+                <li><a href="#" class="to_small">5</a></li>
                 <li>
                     <a href="#" aria-label="Next">
                         <span aria-hidden="true">&raquo;</span>
@@ -93,61 +93,61 @@
     <div class="more_art_area">
         <div style="float: left">
             <div>
-                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="shadow_effect to_small">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">收藏</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">收藏</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="shadow_effect to_small">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">收藏</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">收藏</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="shadow_effect to_small">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">收藏</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">收藏</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="shadow_effect to_small">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">收藏</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">收藏</a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="float: left" class="list-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div style="float: left;padding-top: 50px" class="list-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <a href="#" class="list-group-item active">
                 阅读排行
             </a>
@@ -250,27 +250,27 @@
     <ul class="social">
         <li>
             <a href="#" title="Twitter Profile">
-                <span class="icon fa fa-twitter fa-2x"></span>
+                <twitter><span class="icon fa fa-twitter fa-2x to_rotate"></span></twitter>
             </a>
         </li>
         <li>
             <a href="#" title="Facebook Page">
-                <span class="icon fa fa-facebook fa-2x"></span>
+                <span class="icon fa fa-facebook fa-2x to_rotate"></span>
             </a>
         </li>
         <li>
             <a href="#" title="LinkedIn Profile">
-                <span class="icon fa fa-linkedin fa-2x"></span>
+                <linkedIn><span class="icon fa fa-linkedin fa-2x to_rotate"></span></linkedIn>
             </a>
         </li>
         <li>
             <a href="#" title="Goole+ Profile">
-                <span class="icon fa fa-google fa-2x"></span>
+                <google><span class="icon fa fa-google fa-2x to_rotate"></span></google>
             </a>
         </li>
         <li>
             <a href="#" title="Github Profile">
-                <span class="icon fa fa-github fa-2x"></span>
+                <github><span class="icon fa fa-github fa-2x to_rotate"></span></github>
             </a>
         </li>
     </ul>

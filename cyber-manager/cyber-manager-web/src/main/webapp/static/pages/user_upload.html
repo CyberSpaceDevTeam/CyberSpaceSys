@@ -181,27 +181,27 @@
     <ul class="social">
         <li>
             <a href="#" title="Twitter Profile">
-                <span class="icon fa fa-twitter fa-2x"></span>
+                <twitter><span class="icon fa fa-twitter fa-2x to_rotate"></span></twitter>
             </a>
         </li>
         <li>
             <a href="#" title="Facebook Page">
-                <span class="icon fa fa-facebook fa-2x"></span>
+                <span class="icon fa fa-facebook fa-2x to_rotate"></span>
             </a>
         </li>
         <li>
             <a href="#" title="LinkedIn Profile">
-                <span class="icon fa fa-linkedin fa-2x"></span>
+                <linkedIn><span class="icon fa fa-linkedin fa-2x to_rotate"></span></linkedIn>
             </a>
         </li>
         <li>
             <a href="#" title="Goole+ Profile">
-                <span class="icon fa fa-google fa-2x"></span>
+                <google><span class="icon fa fa-google fa-2x to_rotate"></span></google>
             </a>
         </li>
         <li>
             <a href="#" title="Github Profile">
-                <span class="icon fa fa-github fa-2x"></span>
+                <github><span class="icon fa fa-github fa-2x to_rotate"></span></github>
             </a>
         </li>
     </ul>

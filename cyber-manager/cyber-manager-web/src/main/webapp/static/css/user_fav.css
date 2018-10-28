@@ -39,7 +39,7 @@
 .fav_user_info {
     height: 400px;
     width: 400px;
-    background-color: #d7fffb;
+    /*background-color: #d7fffb;*/
 }
 
 .fav_user_info_area1 {
@@ -59,11 +59,11 @@
 .fav_user_info_area2_fav1 {
     width: 100%;
     height: 400px;
-    background-color: grey;
+    /*background-color: grey;*/
 }
 
 .fav_user_info_area2_fav2 {
     width: 100%;
     height: 400px;
-    background-color: #803267;
+    /*background-color: #803267;*/
 }

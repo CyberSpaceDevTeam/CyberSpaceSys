@@ -40,7 +40,7 @@
     width: 50%;
     height: 1200px;
     margin-left: 5%;
-    background-color: #00b4ef;
+    /*background-color: #00b4ef;*/
     float: left;
 }
 
@@ -48,6 +48,6 @@
     width: 30%;
     height: 1200px;
     margin-left: 10%;
-    background-color: #9f9c9e;
+    /*background-color: #9f9c9e;*/
     float: left;
 }

@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,59 +34,76 @@
 <!--userInfo-->
 <div>
     <div class="fav_user_info_area1 fav_user_info">
-        <i class="fa fa-user fa-4x"></i>
+        <!--<i class="fa fa-user fa-4x"></i>-->
+        <div>
+            <div style="text-align:center;">
+                <img src="../static/img/fav1.jpg" class="img-rounded img-thumbnail shadow_effect">
+            </div>
+            <div class="panel panel-default" style="margin-top: 20px">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Panel heading</div>
+                <!-- List group -->
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <div class="fav_user_info_area2">
         <div>
             <div class="fav_user_info_area2_fav1">
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="stackone to_small">
                         <div class="caption">
                             <h3>xx收藏夹</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">编辑</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="stackone to_small">
                         <div class="caption">
                             <h3>xx收藏夹</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">编辑</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="stackone to_small">
                         <div class="caption">
                             <h3>xx收藏夹</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">编辑</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3 shadow_effect">
                     <div class="thumbnail">
-                        <img src="../static/img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="..." class="stackone to_small">
                         <div class="caption">
                             <h3>xx收藏夹</h3>
                             <p>xx</p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
+                                <a href="#" class="btn btn-primary to_small" role="button">进入</a>
+                                <a href="#" class="btn btn-default to_small" role="button">编辑</a>
                             </p>
                         </div>
                     </div>
@@ -94,7 +111,23 @@
             </div>
         </div>
         <div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top: 10px">
+                <div class="panel panel-default">
+                    <div class="panel-heading">收藏标题</div>
+                    <div class="panel-body">
+                        收藏内容
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top: 10px">
+                <div class="panel panel-default">
+                    <div class="panel-heading">收藏标题</div>
+                    <div class="panel-body">
+                        收藏内容
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top: 10px">
                 <div class="panel panel-default">
                     <div class="panel-heading">收藏标题</div>
                     <div class="panel-body">
@@ -189,27 +222,27 @@
     <ul class="social">
         <li>
             <a href="#" title="Twitter Profile">
-                <span class="icon fa fa-twitter fa-2x"></span>
+                <twitter><span class="icon fa fa-twitter fa-2x to_rotate"></span></twitter>
             </a>
         </li>
         <li>
             <a href="#" title="Facebook Page">
-                <span class="icon fa fa-facebook fa-2x"></span>
+                <span class="icon fa fa-facebook fa-2x to_rotate"></span>
             </a>
         </li>
         <li>
             <a href="#" title="LinkedIn Profile">
-                <span class="icon fa fa-linkedin fa-2x"></span>
+                <linkedIn><span class="icon fa fa-linkedin fa-2x to_rotate"></span></linkedIn>
             </a>
         </li>
         <li>
             <a href="#" title="Goole+ Profile">
-                <span class="icon fa fa-google fa-2x"></span>
+                <google><span class="icon fa fa-google fa-2x to_rotate"></span></google>
             </a>
         </li>
         <li>
             <a href="#" title="Github Profile">
-                <span class="icon fa fa-github fa-2x"></span>
+                <github><span class="icon fa fa-github fa-2x to_rotate"></span></github>
             </a>
         </li>
     </ul>
