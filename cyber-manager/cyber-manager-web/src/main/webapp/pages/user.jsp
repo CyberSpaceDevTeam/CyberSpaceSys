@@ -1,119 +1,91 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/footstyle.css">
-    <link rel="stylesheet" href="../css/animate.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <script type="text/javascript" src="../js/index.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <title>user</title>
+    <link rel="stylesheet" href="../static/css/user.css">
+    <link rel="stylesheet" href="../static/css/footstyle.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/jquery-1.4.2.js"></script>
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-        $(function () {
-            $('#myCarousel').carousel({interval: 2000});
-        });
-    </script>
 </head>
-<body>
+<body class="user_body">
 <!--nav-->
-<div class="index_nav navbar navbar-inverse navbar-fixed-top">
+<div class="user_nav navbar navbar-inverse">
     <div class="container-fluid title">
         <div class="navbar-header">
-            <a class="navbar-brand" href="main.html">
-                <img alt="logo" src="../img/logo.png">
+            <a class="navbar-brand" href="main.jsp">
+                <img alt="logo" src="../static/img/logo.png">
             </a>
         </div>
     </div>
     <ul class="nav nav-pills navbar-right">
-        <li class="index_nav_li1" role="presentation"><a href="user_sign_in.html">登录</a></li>
-        <li class="index_nav_li2" role="presentation"><a href="user_register.html">注册</a></li>
+        <!--<li class="upload_nav_li1 active" role="presentation">主页</li>-->
+        <li class="upload_nav_li2" role="presentation"><a>发布新资源</a></li>
+        <li class="upload_nav_li3" role="presentation"><a>收藏</a></li>
+        <li class="upload_nav_li4" role="presentation"><a>个人中心</a></li>
+        <li class="upload_nav_li4" role="presentation"><a>注销</a></li>
     </ul>
 </div>
-<!--carousel-->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="../img/register1.JPG" alt="First slide"/>
-        </div>
-        <div class="item">
-            <img src="../img/bg1.jpg" alt="Second slide"/>
-        </div>
-        <div class="item">
-            <img src="../img/bg3.jpg" alt="Third slide"/>
+<!--activity-->
+<div class="user_activity">
+    <div class="user_activity_area">
+        <div class="panel panel-default">
+            <div class="panel-heading">动态</div>
+            <div class="panel-body">
+                动态详情
+            </div>
         </div>
     </div>
-</div>
-<div style="margin-bottom: 300px">
-    <!--class="infinite"-->
-    <div class="sec-area animated slideInRight">
-        <span>test</span>
-    </div>
+    <!--userInfo-->
     <div>
-        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
-            <span class="icon fa fa-user fa-4x"></span>
-            <div>
-                <h3>qqqqqqqqqq</h3>
-                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                    goods is &nbsp;licensed.</p>
+        <div class="user_activity_userInfo">
+            <div class="panel panel-default">
+                <div class="panel-heading">Panel heading without title</div>
+                <div class="panel-body" style="height: 300px">
+                    Panel content
+                </div>
             </div>
         </div>
-        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
-            <span class="icon fa fa-user fa-4x"></span>
-            <h3>aaaaaaaaaaa</h3>
-            <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                goods is &nbsp;licensed.</p>
-        </div>
-        <div class="thi-area col-lg-4 col-md-4 col-xs-12">
-            <span class="icon fa fa-user fa-4x"></span>
-            <h3>ddddddddddddd</h3>
-            <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                goods is &nbsp;licensed.</p>
-        </div>
-    </div>
-    <div class="sec-area animated slideInRight">
-        <span>test</span>
-    </div>
-    <div>
-        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
-            <span class="fa fa-battery-three-quarters fa-4x"></span>
-            <div>
-                <h3>qqqqqqqqqq</h3>
-                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                    goods is &nbsp;licensed.</p>
+        <div class="user_activity_target">
+            <div class=" col-xs-12 col-lg-12 col-md-6">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
+            </div>
+            <div class=" col-xs-12 col-lg-12 col-md-6">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
+            </div>
+            <div class=" col-xs-12 col-lg-12 col-md-6">
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">
+                        Cras justo odio
+                    </a>
+                    <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item">Morbi leo risus</a>
+                    <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item">Vestibulum at eros</a>
+                </div>
             </div>
         </div>
-        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
-            <span class="fa fa-edge fa-4x"></span>
-            <div>
-                <h3>qqqqqqqqqq</h3>
-                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                    goods is &nbsp;licensed.</p>
-            </div>
-        </div>
-        <div class="pic-area col-lg-4 col-md-4 col-xs-12">
-            <span class="fa fa-xing fa-4x"></span>
-            <div>
-                <h3>qqqqqqqqqq</h3>
-                <p>We use our iOs mobile app with our in-house tech to connect you to the nearest supplier of services.
-                    We are the ‘uber’ for waste. No more flicking through google or worrying if the guy picking up your
-                    goods is &nbsp;licensed.</p>
-            </div>
-        </div>
+
     </div>
 </div>
 <!--foot-->
