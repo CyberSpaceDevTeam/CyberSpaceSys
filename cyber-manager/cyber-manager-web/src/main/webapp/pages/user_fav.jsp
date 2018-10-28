@@ -39,7 +39,7 @@
     <div class="fav_user_info_area2">
         <div>
             <div class="fav_user_info_area2_fav1">
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
                         <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
                         <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
                         <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
                         <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">

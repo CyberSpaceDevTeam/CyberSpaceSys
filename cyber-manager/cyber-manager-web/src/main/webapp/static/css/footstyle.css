@@ -67,3 +67,35 @@
 .title img {
     height: 40px;
 }
+
+.to_small {
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.to_small:hover {
+    /*放大缩小*/
+    transform: scale(0.95);
+    /*移位*/
+    /*transform: translate3d(20px, 20px,20px);*/
+    /*y轴旋转*/
+    /*transform: rotateY(360deg);*/
+}
+
+.to_big {
+    cursor: pointer;
+    transition: all 1.2s ease;
+}
+
+.to_big:hover {
+    transform: scale(1.1);
+}
+
+.to_rotate {
+    cursor: pointer;
+    transition: all 0.8s ease;
+}
+
+.to_rotate:hover {
+    transform: rotateY(360deg);
+}

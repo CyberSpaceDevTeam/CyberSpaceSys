@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../css/user_fav.css">
+    <link rel="stylesheet" href="../css/topic.css">
     <link rel="stylesheet" href="../css/footstyle.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
@@ -12,10 +12,93 @@
     <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", serif;
+        }
+
+        #main {
+            width: 962px;
+            height: 750px;
+            margin: 100px auto;
+        }
+
+        #main ul {
+            list-style: none;
+        }
+
+        #main ul li {
+            width: 320px;
+            height: 320px;
+            float: left;
+            position: relative;
+        }
+
+        #main ul li img {
+            border: 10px solid #F5F5F5;
+            -webkit-transition: 1s ease;
+            -moz-transition: 1s ease;
+        }
+
+        #main .info {
+            width: 240px;
+            height: 230px;
+            border: 10px solid #F5F5F5;
+            background: #deddcd;
+            position: absolute;
+            bottom: -50px;
+            right: 0;
+            -webkit-transition: 1s ease;
+            -moz-transition: 1s ease;
+            -moz-transform: rotatey(30deg);
+            -webkit-transform: rotatey(30deg);
+            opacity: 0.89;
+        }
+
+        #main .info h2 {
+            text-align: center;
+            line-height: 70px;
+            color: #7a3f3a;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        #main .info p {
+            padding: 0 20px;
+            font-size: 14px;
+        }
+
+        #main .info a {
+            display: block;
+            width: 100px;
+            height: 30px;
+            background: #7a7975;
+            color: #FFF;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            margin: 10px auto;
+        }
+
+        #main ul li:hover .info {
+            -webkit-transform: rotatey(0deg);
+            -moz-transform: rotatey(0deg);
+            right: 30px;
+            bottom: -70px;
+        }
+
+        #main ul li:hover img {
+            -webkit-transform: rotatey(360deg);
+            -moz-transform: rotatey(360deg);
+        }
+    </style>
 </head>
-<body class="fav_body">
+<body class="topic_body">
 <!--nav-->
-<div class="fav_nav navbar navbar-inverse">
+<div class="topic_nav navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid title">
         <div class="navbar-header">
             <a class="navbar-brand" href="main.html">
@@ -24,85 +107,60 @@
         </div>
     </div>
     <ul class="nav nav-pills navbar-right">
-        <!--<li class="upload_nav_li1 active" role="presentation">主页</li>-->
-        <li class="upload_nav_li2" role="presentation"><a>发布新资源</a></li>
-        <li class="upload_nav_li3" role="presentation"><a>收藏</a></li>
-        <li class="upload_nav_li4" role="presentation"><a>个人中心</a></li>
-        <li class="upload_nav_li4" role="presentation"><a>注销</a></li>
+        <li class="topic_nav_li1" role="presentation"><a>发布新资源</a></li>
+        <li class="topic_nav_li2" role="presentation"><a>收藏</a></li>
+        <li class="topic_nav_li3" role="presentation"><a>个人中心</a></li>
+        <li class="topic_nav_li4" role="presentation"><a>注销</a></li>
     </ul>
 </div>
-<!--userInfo-->
 <div>
-    <div class="fav_user_info_area1 fav_user_info">
-        <i class="fa fa-user fa-4x"></i>
-    </div>
-    <div class="fav_user_info_area2">
-        <div>
-            <div class="fav_user_info_area2_fav1">
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
-                        <div class="caption">
-                            <h3>xx收藏夹</h3>
-                            <p>xx</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
-                            </p>
-                        </div>
-                    </div>
+    <div id="main">
+        <ul>
+            <li>
+                <img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
-                        <div class="caption">
-                            <h3>xx收藏夹</h3>
-                            <p>xx</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
-                            </p>
-                        </div>
-                    </div>
+            </li>
+            <li><img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
-                        <div class="caption">
-                            <h3>xx收藏夹</h3>
-                            <p>xx</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
-                            </p>
-                        </div>
-                    </div>
+            </li>
+            <li><img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
                 </div>
-                <div class="to_small col-xs-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
-                        <div class="caption">
-                            <h3>xx收藏夹</h3>
-                            <p>xx</p>
-                            <p>
-                                <a href="#" class="btn btn-primary" role="button">进入</a>
-                                <a href="#" class="btn btn-default" role="button">编辑</a>
-                            </p>
-                        </div>
-                    </div>
+            </li>
+            <div style="width:960px;height: 60px;float: left;"></div>
+            <li><img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
                 </div>
-            </div>
-        </div>
-        <div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">收藏标题</div>
-                    <div class="panel-body">
-                        收藏内容
-                    </div>
+            </li>
+            <li><img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
                 </div>
-            </div>
-        </div>
+            </li>
+            <li><img src="../img/fav1.jpg" width="300" height="320">
+                <div class="info">
+                    <h2>111</h2>
+                    <p>222</p>
+                    <a href="#">进入</a>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 <!--foot-->

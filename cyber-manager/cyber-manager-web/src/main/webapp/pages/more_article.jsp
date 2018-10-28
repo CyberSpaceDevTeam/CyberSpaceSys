@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>more</title>
-    <link rel="stylesheet" href="../css/more_article.css">
-    <link rel="stylesheet" href="../css/footstyle.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="shortcut icon" href="../img/favicon.ico"/>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <link rel="stylesheet" href="../static/css/more_article.css">
+    <link rel="stylesheet" href="../static/css/footstyle.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../static/img/favicon.ico"/>
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../static/js/jquery-1.4.2.js"></script>
     <script src="http://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -18,8 +18,8 @@
 <div class="more_art_nav navbar navbar-inverse">
     <div class="container-fluid title">
         <div class="navbar-header">
-            <a class="navbar-brand" href="main.html">
-                <img alt="logo" src="../img/logo.png">
+            <a class="navbar-brand" href="main.jsp">
+                <img alt="logo" src="../static/img/logo.png">
             </a>
         </div>
     </div>
@@ -95,7 +95,7 @@
             <div>
                 <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
@@ -108,7 +108,7 @@
                 </div>
                 <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="to_small col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="thumbnail">
-                        <img src="../img/fav1.jpg" alt="...">
+                        <img src="../static/img/fav1.jpg" alt="...">
                         <div class="caption">
                             <h3>xx专题</h3>
                             <p>xx</p>
