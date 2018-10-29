@@ -90,5 +90,14 @@
     <orderEntry type="library" name="Maven: com.fasterxml:classmate:1.0.0" level="project" />
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="vue" level="application" />
+    <orderEntry type="library" name="cropper" level="application" />
+    <orderEntry type="library" name="fileinput" level="application" />
+    <orderEntry type="library" name="purify" level="application" />
+    <orderEntry type="library" name="piexif" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1" level="application" />
+    <orderEntry type="library" name="popper" level="application" />
+    <orderEntry type="library" name="sortable" level="application" />
+    <orderEntry type="library" name="zh" level="application" />
   </component>
 </module>
