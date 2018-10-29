@@ -13,7 +13,7 @@
         <module name="cyber-manager-web" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="cyber-common" target="1.7" />
       <module name="cyber-manager" target="1.7" />
       <module name="cyber-manager-mapper" target="1.7" />
