@@ -23,17 +23,17 @@
         {
           "text": "文章详情",
           "icon": "&#xe621;",
-          "href": "assets/user_table.html"
+          "href": "assets/resource_table.html"
         },
         {
           "text": "视频详情",
           "icon": "&#xe621;",
-          "href": "assets/user_table.html"
+          "href": "assets/resource_table.html"
         },
         {
           "text": "其他资源",
           "icon": "&#xe621;",
-          "href": "assets/user_table.html"
+          "href": "assets/resource_table.html"
         }
       ]
     },
