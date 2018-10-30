@@ -45,11 +45,6 @@
           "text": "推荐算法",
           "icon": "&#xe621;",
           "href": "assets/data_analysis.html"
-        },
-        {
-          "text": "xx功能",
-          "icon": "&#xe621;",
-          "href": "assets/user_table.html"
         }
       ]
     }

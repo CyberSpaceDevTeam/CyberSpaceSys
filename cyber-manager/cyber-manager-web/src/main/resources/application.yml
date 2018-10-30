@@ -13,3 +13,6 @@ spring:
     view:
       prefix: /pages/
       suffix: .jsp
+mybatis:
+  mapperLocations: classpath:mybatis/mappers/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml

@@ -4,11 +4,17 @@
     <meta charset="utf-8">
     <title>ECharts</title>
     <!-- 引入 echarts.js -->
+    <link rel="stylesheet" href="../frame/layui/css/layui.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <script src="../js/echarts.js"></script>
 </head>
 <body>
 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-<div id="main" style="width: 600px;height:400px;"></div>
+<div id="main" style="width: 1600px;height:900px;"></div>
+<button class="layui-btn layui-btn-radius col-lg-1 center-block" style="float: none">
+    <a href="#" onClick="delayURL('../assets/user_table.html',10000)" style="color: #fff">点击训练</a>
+</button>
+
 <script type="text/javascript">
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
@@ -16,7 +22,7 @@
     // 指定图表的配置项和数据
     var option = {
         title: {
-            text: 'ECharts 入门示例'
+            text: '结果集'
         },
         tooltip: {},
         legend: {
@@ -35,6 +41,10 @@
 
     // 使用刚指定的配置项和数据显示图表。
     myChart.setOption(option);
+
+    function delayURL(url, time) {
+        setTimeout("top.location.href = '" + url + "'", time);
+    }
 </script>
 </body>
 </html>
