@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gitgraph</title>
+    <link rel="stylesheet" href="../css/gitgraph.css">
+    <script type="text/javascript" src="../js/gitgraph.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.13.0/gitgraph.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.13.0/gitgraph.min.js"></script>
+    <script src="http://gitgraphjs.com/js/gitgraph.min.js"></script>
+    <script>
+        // var gitgraph = new GitGraph({
+        //     template: "metro",
+        //     orientation: "horizontal",
+        //     author: "Justdwiwt",
+        //     mode: "compact"
+        // });
+        //
+        // var master = gitgaraph.branch("master");
+        // gitgraph.commit("My first commit"); // 1 commit upon HEAD
+        // var develop = gitgraph.branch("develop"); // New branch from HEAD
+        // var myfeature = develop.branch("myfeature"); // New branch from develop
+        // develop.commit("Develop a feature - part 1");
+        // develop.commit("Develop a feature - part 2");
+        //
+        //
+        // master.commit({message: "Fast bugfix", author: "John Fixer"});
+        // myfeature.commit({message: "New cool feature", author: "John Feature"});
+
+    </script>
+</head>
+<body>
+<canvas id="gitGraph">
+    <script>
+        var gitgraph = new GitGraph({
+            template: "metro", // or blackarrow
+            orientation: "vertical",  // vertical or horizontal
+            author: "Justdwiwt",
+            mode: "extended" // extended or compact if you don't want the messages
+        });
+
+        var master = gitgraph.branch("master");
+
+        master.commit("create environment");
+        master.commit("update environment");
+        master.commit("add static webpages");
+        master.commit("add pages css");
+
+        var develop = master.branch("develop");
+        develop.commit("add");
+        var feature_webpages = develop.branch("feature_webpages");
+
+        feature_webpages.commit("add web static resources config");
+
+        feature_webpages.merge(develop);
+        // feature_webpages.delete();
+
+        var feature_webpages = develop.branch("feature_webpages");
+        feature_webpages.commit("add web static pages user_sign_in");
+        feature_webpages.commit("add bootstrap");
+        feature_webpages.commit("add web static pages user_register");
+        feature_webpages.commit("add web config");
+        feature_webpages.commit("update web static pages user_sign_in & user_register css");
+
+        feature_webpages.merge(develop);
+        // feature_webpages.delete();
+
+        var feature_common = develop.branch("feature_common");
+        feature_common.commit("add common & utils config");
+        feature_common.commit("update common & utils & mybatis config");
+
+        feature_common.merge(develop);
+        // feature_common.delete();
+
+        var feature_staticpages = develop.branch("feature_staticpages");
+        feature_staticpages.commit("update branch");
+        feature_staticpages.commit("add thymeleaf defences & config & templates");
+        feature_staticpages.commit("update web static pages with bootstrap");
+
+        feature_staticpages.merge(develop);
+        // feature_staticpages.delete();
+
+        var feature_staticpages = develop.branch("feature_staticpages");
+        feature_staticpages.commit("update pages icons");
+        feature_staticpages.commit("update index page");
+        feature_staticpages.commit("update index page");
+        feature_staticpages.commit("update main page");
+        feature_staticpages.commit("update article resource page");
+        feature_staticpages.commit("update user page");
+        feature_staticpages.commit("update user_favorite page");
+
+        feature_staticpages.merge(develop);
+        // feature_staticpages.delete();
+
+        var feature_jsp = develop.branch("feature_jsp");
+        feature_jsp.commit("refactor static pages to jsp pages");
+        feature_jsp.commit("add more_article static page");
+        feature_jsp.commit("add topic static page");
+        feature_jsp.commit("update css");
+        feature_jsp.commit("add user_setting pages");
+        feature_jsp.commit("update maven config");
+        feature_jsp.commit("update user_setting style");
+        feature_jsp.commit("add cyberspace manager static pages");
+
+        feature_jsp.merge(develop);
+        // feature_jsp.delete();
+
+        develop.commit("update iml");
+        var feature_manager = develop.branch("feature_manager");
+        feature_manager.commit("add manager login pages");
+        feature_manager.commit("add manager all pages");
+        feature_manager.commit("update all static resources");
+
+        feature_manager.merge(develop);
+        // feature_manager.delete();
+        develop.merge(master);
+        // develop.delete();
+
+        master.commit("update data_analysis pages");
+        master.commit("update manager pages");
+    </script>
+</canvas>
+</body>
+</html>
